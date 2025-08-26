@@ -18,7 +18,7 @@
 Git은 코드의 버전을 관리하는 프로그램입니다.
 
 **Windows:**
-1. https://git-scm.com/download/windows 접속
+1. https://git-scm.com/downloads/win 접속
 2. "64-bit Git for Windows Setup" 다운로드
 3. 설치 파일 실행 → 모든 옵션은 기본값으로 두고 "Next" 클릭
 4. 설치 완료 후 명령 프롬프트(cmd)를 열고 `git --version` 입력하여 확인
@@ -97,7 +97,7 @@ gh auth login
 ### 3.1 프로젝트 폴더 만들기
 1. VS Code 실행
 2. File → Open Folder 클릭
-3. 바탕화면 또는 Documents에 "my-first-website" 폴더 생성
+3. 바탕화면 또는 Documents에 "pwd-week1" 폴더 생성
 4. 생성한 폴더 선택 후 "Select Folder" 클릭
 
 ### 3.2 HTML 파일 작성 (index.html)
@@ -111,7 +111,7 @@ gh auth login
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>나의 첫 웹사이트</title>
+    <title>실전웹서비스개발 1주차</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -129,7 +129,7 @@ gh auth login
     </main>
     
     <footer>
-        <p>&copy; 2024 My First Website</p>
+        <p>&copy; 2025 PWD Week 1</p>
     </footer>
     
     <script src="script.js"></script>
@@ -239,13 +239,13 @@ git init
 Terminal에서:
 
 ```bash
-gh repo create my-first-website --public --source=. --remote=origin
+gh repo create pwd-week1 --public --source=. --remote=origin
 ```
 
 만약 에러가 발생하면, GitHub 웹사이트에서 직접 생성:
 1. https://github.com 로그인
 2. 우측 상단 "+" → "New repository"
-3. Repository name: `my-first-website`
+3. Repository name: `pwd-week1`
 4. Public 선택
 5. "Create repository" 클릭
 
@@ -283,7 +283,7 @@ git push -u origin main
 ### 5.2 배포 확인
 1. 2-3분 정도 기다림
 2. Settings → Pages에서 상단에 녹색 체크표시와 함께 URL이 나타남
-3. URL 형식: `https://[username].github.io/my-first-website`
+3. URL 형식: `https://[username].github.io/pwd-week1`
 4. 링크 클릭하여 웹사이트 확인
 
 ---
@@ -302,8 +302,8 @@ git push -u origin main
 
 ### 📝 제출 정보
 LMS에 다음 정보를 제출하세요:
-1. GitHub 저장소 URL (예: `https://github.com/username/my-first-website`)
-2. GitHub Pages URL (예: `https://username.github.io/my-first-website`)
+1. GitHub 저장소 URL (예: `https://github.com/username/pwd-week1`)
+2. GitHub Pages URL (예: `https://username.github.io/pwd-week1`)
 
 ### 🔧 문제 해결 팁
 - **Git 명령어가 작동하지 않는 경우**: VS Code를 재시작하고 Terminal을 새로 열어보세요
@@ -313,12 +313,10 @@ LMS에 다음 정보를 제출하세요:
 
 ---
 
-## 🎉 축하합니다!
-
-첫 번째 웹사이트를 성공적으로 배포했습니다! 이제 여러분은:
-- Git으로 버전 관리를 할 수 있습니다
-- GitHub에 코드를 저장할 수 있습니다
-- 웹사이트를 인터넷에 공개할 수 있습니다
+첫 번째 웹사이트를 성공적으로 배포했다면 이제 여러분은:
+- Git으로 버전 관리를 할 수 있습니다.
+- GitHub에 코드를 저장할 수 있습니다.
+- 웹사이트를 인터넷에 공개할 수 있습니다.
 
 다음 주부터는 이 기초 위에 더 복잡하고 흥미로운 기능들을 추가해 나갈 것입니다.
 
